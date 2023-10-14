@@ -8,7 +8,7 @@ spec:
       image: nginx:1.24.0
       ports:
         - containerPort: 80
-    - name: apache
+    - name: httpd
       image: httpd
       ports:
         - containerPort: 8080
