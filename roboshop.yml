@@ -14,7 +14,7 @@ kind: Service
 metadata:
   name: frontend-roboshop
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app.kubernetes.io/name: frontend
   ports:
